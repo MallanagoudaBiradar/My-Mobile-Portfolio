@@ -12,10 +12,10 @@ const Technologies = ({variants}) =>  (
                 
 
                 <div className="skills__data">
-                <i class='bx bxl-java' ></i>
+                <i class='bx bxl-python' ></i>
 
                  <div>
-                    <h3 className="skills__name">Java </h3>
+                    <h3 className="skills__name">Python </h3>
                  </div>
                 </div>
 

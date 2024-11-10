@@ -24,7 +24,7 @@ const About = () => (
       <motion.div className="about__data">
         <Info />
 
-        <motion.p variants={fadeIn('up', 'spring', 0.5, 1)} className="about__description">Hello! I'm Mallanagouda R Biradar and I am a dedicated UI Full Stack professional with experience at HCLTech (Hindustan Computer Limited) from December 2022 to June 2023. During this time, I contributed to diverse projects, showcasing my proficiency in technologies and frameworks. Notably, I led the development on a MEAN app using AngularJS, implementing features like CRUD operations, login functionality, and local storage. This project highlights my ability to seamlessly integrate technologies for user-friendly applications.</motion.p>
+        <motion.p variants={fadeIn('up', 'spring', 0.5, 1)} className="about__description">Hello, I’m Mallanagouda R. Biradar, a backend developer at ShikshaLokam. I’ve contributed to several open-source projects, including Project-Service, Entity-Management, Survey-Service, and User-Service. My work involves a robust tech stack of Python, Node.js, Docker, MongoDB, PostgreSQL, and Redis, primarily on Linux. These projects are now live in production, and links can be found in the Projects section.</motion.p>
 
         <motion.a variants={fadeIn('up', 'spring', 0.6, 1)} download='' href={CV} className="button button--flex">
           Resume

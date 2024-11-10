@@ -1,7 +1,7 @@
 import Work1 from '../../assets/Metaversus.webp.png'
 import Work2 from '../../assets/port.png'
 import Work3 from '../../assets/github.png'
-import Work4 from '../../assets/solar.png'
+import Work4 from '../../assets/elevate.png'
 import Work5 from '../../assets/react.png'
 
 export const projectsData = [
@@ -38,12 +38,12 @@ export const projectsData = [
     {
       id: 4,
       image: Work4,
-      title: "Solar System",
+      title: "Elevate Project",
       category: "web",
-      builtWith:<> <p>HTML</p><p>CSS</p></>,
-      detail: 'i have developed this dynamic project just by using HTML and CSS',
-      url: 'https://mallanagoudabiradar.github.io/Solar-System/',
-      code: 'https://github.com/MallanagoudaBiradar/Solar-System',
+      builtWith:<> <p>NodeJs</p><p>Python</p><p>MongoDB</p><p>Docker</p> <p>Redis</p><p>Postgres</p></>,
+      detail: 'Elevate is an educational platform that provides digital resources and tools to enhance teaching and learning experiences for educators and students across India.',
+      url: 'https://dev.elevate-ml.shikshalokam.org',
+      code: 'https://github.com/ELEVATE-Project/project-service',
     },
     {
       id: 5,

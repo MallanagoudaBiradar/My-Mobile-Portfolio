@@ -22,7 +22,7 @@ const Info = () =>  (
        className="about__box">
         <i className='bx bx-briefcase-alt about__icon'></i>
         <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">13+ Projects</span>
+        <span className="about__subtitle">38+ Projects</span>
     </motion.div>
     <motion.div 
        variants={fadeIn('up', 'tween', 0.6, 1)}

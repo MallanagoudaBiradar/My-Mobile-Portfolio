@@ -27,6 +27,10 @@ const Qualifications = () => {
                  'qualification__button button__flex'} onClick={()=> ToggleTab(1)}>HCLTech</div>
                 <div className={toggleState === 2 ? 'qualification__button qualification__active button__flex' :
                  'qualification__button button__flex'} onClick={()=> ToggleTab(2)}>JSpider</div>
+                 <div className={toggleState === 3 ? 'qualification__button qualification__active button__flex' :
+                 'qualification__button button__flex'} onClick={()=> ToggleTab(3)}>ShikshaLokam</div>
+                 <div className={toggleState === 4 ? 'qualification__button qualification__active button__flex' :
+                 'qualification__button button__flex'} onClick={()=> ToggleTab(4)}>LiveSitter</div>
             </motion.div>
 
                 <motion.div variants={fadeIn('up', 'spring', 0.4, 1)} className={toggleState == 1 ? 'qualification__content qualification__content-active' : 'qualification__content'}>            
@@ -47,7 +51,26 @@ const Qualifications = () => {
                         <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'>The training programs at Jspiders often include real-time projects and hands-on experience</p>
                         <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> This training helps me to develope a real time projects  </p>
                     </div>
-                </div>        
+                </div>    
+                
+                <div className={toggleState == 3 ? 'qualification__content qualification__content-active' : 'qualification__content'}>                 
+                        <h3 className='qualification__title'>Backend Developer  @ <span className='company'>Shikshalokam</span> </h3>
+                        <small className='qualification__calender'>Feb 2024 - Present </small>
+                        <div className='qualification__details'>
+                        <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'>ShikshaLokam is a leading organization focused on leveraging technology to drive educational transformation across India.</p>
+                        <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> I’ve contributed to several open-source projects, including Project-Service, Entity-Management, Survey-Service, and User-Service</p>
+                        <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> My work involves a robust tech stack of Python, Node.js, Docker, MongoDB, PostgreSQL, and Redis.  </p>
+                    </div>
+                </div>     
+                <div className={toggleState == 4 ? 'qualification__content qualification__content-active' : 'qualification__content'}>                 
+                        <h3 className='qualification__title'>Machine Learning Engineer  @ <span className='company'>LiveSitter</span> </h3>
+                        <small className='qualification__calender'>Jan 2024 - Aug 2024 </small>
+                        <div className='qualification__details'>
+                        <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'>LiveSitter is a prominent platform dedicated to providing secure, on-demand storage solutions for people in need of temporary space for their belongings.</p>
+                        <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> I contributed to the development of an AI model that analyzes images and identifies hazardous objects within them. </p>
+                        <i className='bx bxs-right-arrow qualification__icon'></i><p className='qualification__subtitle'> My work involves a robust tech stack of Python, AI-ML, PyTorch, Pandas and OpenCV   </p>
+                    </div>
+                </div>     
         </div>
         <br />
 

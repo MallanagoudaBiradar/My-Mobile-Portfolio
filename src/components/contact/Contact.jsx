@@ -58,9 +58,9 @@ const Contact = () => {
                 <i class="bx bxl-linkedin contact__card-icon"></i>
 
                     <h3 className="contact__card-title">Linkedin</h3>
-                    <span className="contact__card-data">@mrbiradar</span>
+                    <span className="contact__card-data">@mallanagoudabiradar</span>
 
-                    <a href='https://www.linkedin.com/in/mrbiradar/' target='_blank' className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                    <a href='https://www.linkedin.com/in/mallanagoudabiradar/' target='_blank' className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                 </motion.div>
 
             </div>

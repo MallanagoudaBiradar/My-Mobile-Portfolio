@@ -64,10 +64,10 @@ const Libraries = ({variants}) => (
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bxl-spring-boot' ></i>
+                <i class='bx bxl-docker' ></i>
 
                  <div>
-                    <h3 className="skills__name">Spring Boot</h3>
+                    <h3 className="skills__name">Docker</h3>
                    
                  </div>
                 </div>
