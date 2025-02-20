@@ -13,7 +13,7 @@ const Data = () => {
       className="home__data">
       <motion.h1 variants={fadeIn('up', 'tween', 0.2, 1)} className="home__title">Mallanagouda Rl Biradar</motion.h1>
       <motion.h3 variants={fadeIn('up', 'tween', 0.4, 1)} className="home__subtitle">Software Developer</motion.h3>
-      <motion.p variants={fadeIn('up', 'tween', 0.6, 1)} className="home__description">I hold a Bachelor's degree in Electronics and Communication Engineering from BLDEA Engineering College. Currently, I am a full-time backend developer at ShikshaLokam, where I have completed over eight months, working extensively on production-level projects in a dynamic open-source environment.</motion.p>
+      <motion.p variants={fadeIn('up', 'tween', 0.6, 1)} className="home__description">I hold a Bachelor's degree in Electronics and Communication Engineering from BLDEA Engineering College. Currently, I am a full-time backend developer at ShikshaLokam, working extensively on production-level projects in a dynamic open-source environment.</motion.p>
       <motion.a variants={fadeIn('up', 'tween', 0.8, 1)} href="#contact" className="button button--flex">Say Hello
         <svg
           className="button__icon"
