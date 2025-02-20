@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/about.jpg';
-import CV from '../../assets/Mallanagouda Resume.pdf'
+import CV from '../../assets/Mallanagouda.pdf'
 import Info from './Info';
 import { motion } from 'framer-motion';
 import { staggerContainer, fadeIn } from '../../utils/motion'

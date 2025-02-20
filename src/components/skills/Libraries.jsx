@@ -18,23 +18,6 @@ const Libraries = ({variants}) => (
                  </div>
                 </div>
 
-                {/* <div className="skills__data">
-                 <i class='bx bxl-tailwind-css'></i>
-
-                 <div>
-                    <h3 className="skills__name">Tailwind</h3>
-                   
-                 </div>
-                </div> */}
-
-                {/* <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">Material UI</h3>
-                   
-                 </div>
-                </div> */}
                 <div className="skills__data">
                 <i class='bx bxl-javascript' ></i>
 
@@ -72,17 +55,16 @@ const Libraries = ({variants}) => (
                  </div>
                 </div>
 
-                {/* <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
+                <div className="skills__data">
+                <i class='bx bxl-redux' ></i>
 
                  <div>
-                    <h3 className="skills__name">Framer Motion</h3>
-                    <span className='skills__level'>Intermediate</span>
+                    <h3 className="skills__name">Redux</h3>
+                   
                  </div>
-                </div> */}
+                </div>
 
-                
-
+              
             </div>
       </div>
 

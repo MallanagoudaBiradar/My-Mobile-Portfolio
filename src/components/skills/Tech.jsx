@@ -20,9 +20,9 @@ const Technologies = ({variants}) =>  (
                 </div>
 
                 <div className="skills__data">
-                <i class='bx bxl-postgresql'></i>
+                <i class='bx bxl-mongodb'></i>
                  <div>
-                    <h3 className="skills__name">SQL</h3>
+                    <h3 className="skills__name">MongoDB</h3>
                  </div>
                 </div>
                 <div className="skills__data">
@@ -34,21 +34,27 @@ const Technologies = ({variants}) =>  (
                 </div>
 
                 <div className="skills__data">
-                 <i class='bx bxl-git'></i>
+                 <i class='bx bxl-aws'></i>
 
                  <div>
-                    <h3 className="skills__name">Git</h3>
+                    <h3 className="skills__name">AWS</h3>
                  </div>
                 </div>
 
 
                 <div className="skills__data">
-                 <i class='bx bxl-figma'></i>
+                 <i class='bx bxl-django'></i>
 
                  
                  <div>
-                 <h3 className="skills__name">Flutter</h3>
-                    
+                 <h3 className="skills__name">Django</h3>                    
+                 </div>
+                </div>
+
+                <div className="skills__data">
+                 <i class='bx bxl-postgresql'></i>
+                 <div>
+                 <h3 className="skills__name">SQL</h3>                    
                  </div>
                 </div>
 
